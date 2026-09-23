@@ -6,35 +6,35 @@
 
 
 
-\## ✨ Key Features
+\##  Key Features
 
 
 
-\* 🖐️ Real-time hand gesture-based mouse control
+\*  Real-time hand gesture-based mouse control
 
-\* 🖱️ Cursor movement, left/right click, double-click, scrolling and drag-and-drop
+\*  Cursor movement, left/right click, double-click, scrolling and drag-and-drop
 
-\* 🎨 Interactive \*\*Three.js 3D frontend\*\*
+\*  Interactive \*\*Three.js 3D frontend\*\*
 
-\* 🖱️ \*\*3D mouse replacing the traditional cursor\*\*
+\*  \*\*3D mouse replacing the traditional cursor\*\*
 
-\* ⚙️ Gesture calibration, sensitivity and system settings
+\*  Gesture calibration, sensitivity and system settings
 
-\* ⚡ FastAPI backend with WebSocket communication
+\*  FastAPI backend with WebSocket communication
 
-\* 🛡️ ML-based URL classification and phishing protection
+\*  ML-based URL classification and phishing protection
 
-\* 🔍 Threat intelligence using PhishTank and optional VirusTotal
+\*  Threat intelligence using PhishTank and optional VirusTotal
 
-\* 🌐 Chrome/Edge extension for link safety
+\*  Chrome/Edge extension for link safety
 
-\* 🎥 Webcam-based hand tracking using MediaPipe
+\*  Webcam-based hand tracking using MediaPipe
 
-\* 💻 Minimal hardware requirements
+\*  Minimal hardware requirements
 
 
 
-\## 🛠️ Technologies
+\##  Technologies
 
 
 
@@ -54,7 +54,7 @@
 
 
 
-\## 📂 Project Structure
+\##  Project Structure
 
 
 
