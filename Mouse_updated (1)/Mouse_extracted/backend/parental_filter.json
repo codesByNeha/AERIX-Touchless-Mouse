@@ -1,0 +1,8 @@
+{
+  "blocked_domains": [
+    "blocked-test.example"
+  ],
+  "blocked_categories": [],
+  "category_domains": {},
+  "unknown_target_policy": "allow"
+}

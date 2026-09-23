@@ -1,0 +1,14 @@
+.env
+**/.env
+__pycache__/
+**/__pycache__/
+*.pyc
+.pytest_cache/
+**/.pytest_cache/
+.vscode/
+**/.vscode/
+.idea/
+node_modules/
+**/node_modules/
+dist/
+**/dist/

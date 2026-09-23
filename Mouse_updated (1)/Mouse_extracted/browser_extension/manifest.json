@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Touchless Mouse Link Protection",
+  "version": "1.0.0",
+  "description": "Checks changed link targets against the local Touchless Mouse FastAPI safety API.",
+  "permissions": [],
+  "host_permissions": ["http://127.0.0.1:8000/*"],
+  "background": {"service_worker": "service_worker.js"},
+  "content_scripts": [{
+    "matches": ["http://*/*", "https://*/*"],
+    "js": ["content.js"],
+    "run_at": "document_start"
+  }]
+}

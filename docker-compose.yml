@@ -1,0 +1,15 @@
+services:
+  touchless-mouse:
+    build:
+      context: .
+      dockerfile: Mouse_updated (1)/Mouse_extracted/Dockerfile
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./Mouse_updated (1)/Mouse_extracted/calibration_points.json:/app/calibration_points.json
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/', timeout=2)"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+      start_period: 10s
